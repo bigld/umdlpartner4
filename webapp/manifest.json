@@ -142,6 +142,15 @@
           }
         }
       }
+    },
+    "extends": {
+      "extensions": {
+        "sap.ui.controllerExtensions": {
+          "sap.fe.templates.ListReport.ListReportController#com.redbull.sb.umdlpartner4.umdlpartner4::Partner4List": {
+            "controllerName": "com.redbull.sb.umdlpartner4.umdlpartner4.ext.controller.MyExtensionTable"
+          }
+        }
+      }
     }
   },
   "sap.fiori": {
